@@ -1,0 +1,88 @@
+body { 
+    background-color: blue; 
+    font-family: Arial, sans-serif;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+
+}
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+p {
+    margin: 10px 0;
+    padding: 5px; 
+} 
+h1, h2 {
+    font-family: ' Times New Roman', serif;
+    color: #000000;
+}
+#pictures {
+    margin: 50px;
+    padding: 50px;
+  }  
+  img { border: 50px solid #000000
+  }
+/* Styles for dark theme  */
+  .dark-theme {
+    background-color: #333; /* Dark background */
+    color: #fff; /* Light text */
+}
+
+.dark-theme h1,  .dark-theme h2 { 
+    color: #ff8c00; /* O range color for headers in dark theme */
+}
+nav {
+    background-color: #333;
+    text-align:center;
+    padding: 10x 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul il {
+    display: inline; /* Aligns menu items horizontally */
+    margin-right: 20px;
+}
+nav ul il a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul il a:hover {
+    color: #ff8c00; /* change color on hover */
+}
+.profile-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-card h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.profile-card p {
+    margin: 8px 0;
+}
+
+.profile-card a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #007bff;
+}
